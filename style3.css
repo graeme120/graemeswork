@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Rocco';
+    src: url(/typefaces/nunito.extralight.ttf);
+}
+
+
+canvas{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+section{
+    display: flex;
+}
+
+#portrait{
+    width: 31%;
+    filter: drop-shadow(1px 1px 2px #4e4e4e);
+    transform: rotate(-3deg)
+}
+
+#tape1{
+    width: 17%;
+    position: absolute;
+    z-index: 2;
+    top: 0.3%;
+    margin-left: 3%;
+    transform: rotate(5deg);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: url('images/Pen.png'), auto;
+    pointer-events: none;
+}
+
+#tape2{
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    bottom: 1%;
+    margin-left: 19%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: url('images/Pen.png'), auto;
+    pointer-events: none;
+}
+
+#penZone{
+    cursor: url('images/Pen.png');
+}
+
+button{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0vh;
+    right: 4vh;
+    cursor: pointer;
+    font-family: 'Rocco';
+    font-size: 8vw;
+    background-color: transparent;
+    /* border: 2px solid rgb(150, 150, 150); */
+    color: rgb(150, 150, 150);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    color: #000000;
+    /* border: 2px solid black; */
+}
+
+#clearButton{
+    opacity: 0;
+}
+
+button span {
+    margin-bottom: 1vw;
+}
+
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .fadein {
+    animation: fadein 1s;
+  }
+
+
+
+

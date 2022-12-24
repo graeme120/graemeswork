@@ -1,0 +1,12 @@
+body{
+    overflow: hidden;
+    
+}
+
+canvas {
+    padding: 0 1.1em 1.55em 1.1em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
