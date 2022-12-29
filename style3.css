@@ -47,12 +47,12 @@ section{
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-    cursor: url('images/pen.png'), auto;
+    cursor: url('images/pen.jpg'), auto;
     pointer-events: none;
 }
 
 #penZone{
-    cursor: url('images/pen.png');
+    cursor: url('images/pen.jpg');
 }
 
 button{
