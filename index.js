@@ -48,7 +48,6 @@ function addBlue() {
     element.style.color = '#0000FF';
     element.style.textDecoration = 'none';
   }));
-  console.log('i add blue');
 }
 
 function addGreen() {
@@ -56,7 +55,6 @@ function addGreen() {
     element.style.color = '#FF7DCF';
     element.style.textDecoration = 'none';
   }));
-  console.log('i add green');
 }
 
 function addPink() {
@@ -64,7 +62,6 @@ function addPink() {
     element.style.color = '#660000';
     element.style.textDecoration = 'none';
   }));
-  console.log('i add red');
 }
 
 function addBlack() {
@@ -77,7 +74,6 @@ function addBlack() {
   elements.forEach(element => element.addEventListener('mouseover', function() {
     element.style.color = '#000000';
   }));
-  console.log('i add black');
 }
     
 

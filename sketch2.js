@@ -24,8 +24,6 @@ function draw() {
     x = mouseX;
     y = mouseY;
 
-
-
       strokeWeight(7);
 	    stroke((frameCount+240) % 255, 255, 255)
       line(pmouseX, pmouseY, x, y);
