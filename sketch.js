@@ -18,7 +18,7 @@ function setup() {
   let cnv = createCanvas(windowWidth,(windowHeight*0.84));
   cnv.parent('mirror');
   cnv.id('mirror');
-  pixelDensity(1.5);
+  pixelDensity(1.2);
   frameRate(24);
   video = createCapture(VIDEO);
   video.size(cols, rows);
